@@ -6,7 +6,7 @@ void showQuestion(int level, int num1, int num2);
 void success();
 void fail();
 
-int main(void) // 전달값이 없는 main 이라는 이름의 함수, int형 자료를 반환(정수)
+int main_function_project(void) // 전달값이 없는 main 이라는 이름의 함수, int형 자료를 반환(정수)
 
 
 
@@ -58,7 +58,7 @@ void showQuestion(int level, int num1, int num2)
 	printf("####################################\n");
 	printf("\n비밀번호를 입력하세요 (종료 : -1) >> ");
 }
-// 2시간 37분부터 ㄲ
+
 void success()
 {
 	printf("\n >> Good ! 정답입니다:) \n");
